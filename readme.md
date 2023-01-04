@@ -11,3 +11,5 @@
  [windows] gcc main.c -lm -o bin && bin.exe
  
  [default] Linux
+ 
+ [repository] https://github.com/bebagodfried/irt.git
