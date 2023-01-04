@@ -1,4 +1,4 @@
-### How to codebook ###
+### How to codebook
 *Compiler:*
  gcc main.c -o bin
 
