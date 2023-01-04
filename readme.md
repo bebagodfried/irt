@@ -10,4 +10,4 @@
  [linux/macOs] gcc main.c -lm -o bin && ./bin
  [windows] gcc main.c -lm -o bin && bin.exe
  
- *default: Linux
+ [default] Linux
