@@ -2,10 +2,12 @@
 *Compiler:*
  gcc main.c -o bin
 
-*Compile & execute:*
+*Compile & execut:*
  [linux/macOs] gcc main.c -o bin && ./bin
  [windows] gcc main.c -o bin && bin.exe
 
-*Compile, linker & execute:*
+*Compile, linker & execut:*
  [linux/macOs] gcc main.c -lm -o bin && ./bin
  [windows] gcc main.c -lm -o bin && bin.exe
+ 
+ *default: Linux
