@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>DB ACCESS - FORMS</title>
+  <link rel="stylesheet" href="/assets/framework/opencss/open.min.css">
+</head>
+
+<body class="flex items-center justify-center fullscreen">
+  <form action="register.php" method="post" class="bg-white rounded bordered p-2">
+    <div class="mb-2">
+      <img src="https://logodownload.org/wp-content/uploads/2021/08/microsoft-access-logo-0.png" alt="access" class="size-48">
+    </div>
+
+    <div class="flex g-1">
+      <div class="block">
+        <label for="" class="medium">Nom:</label>
+        <input type="text" name="u_first" placeholder="Veillez entee votre nom ...">
+      </div>
+
+      <div class="block">
+        <label for="" class="medium">Prenom:</label>
+        <input type="text" name="u_last" placeholder="Veillez entee votre Prenom ...">
+      </div>
+    </div>
+
+    <div class="block">
+      <label for="" class="medium">Email:</label>
+      <input type="email" name="u_mail" placeholder="Veillez entee votre e-mail ..." class="w-100">
+    </div>
+
+    <div class="block">
+      <label for="" class="medium">Numero:</label>
+      <input type="tel" name="u_number" placeholder="Veillez entee votre Numero ..." class="w-100">
+    </div>
+
+    <button type="submit" class="p-1  mt-2 small">enregister</button>
+  </form>
+</body>
+</html>

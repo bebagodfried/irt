@@ -1,0 +1,10 @@
+/*!
+ * Name: openCSS [Simple responsive HTML, CSS, JS framework]
+ * Version: 2.0.0-beta
+ * Author: @bebagodfried
+ * Copyright: 2023
+ * License: CC BY 4.0, MIT, SIL OFL 1.1
+ */
+@import url(open.min.css);
+@import url(includes/ui-colors.min.css);
+@import url(includes/webfonts.min.css);
